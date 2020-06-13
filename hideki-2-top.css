@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    list-style: none;
+}
+.clear {
+    clear: left;
+}
+body {
+    background-image: url(https://lh3.googleusercontent.com/aGfWnAGqashGQXHXRsAX-_fuSjmsXVEOkt7yhgJek7QXUs4e_6PCJGOux3W5_p2tQIC80K2-OmQHF1v7VQq-q8AgfXmGEFFsZ9lKd_crdxs0q6W2hctNdx6HgIA6-amIHNNZBt-joL-Cd3Pgl9Jz2YJI4SU0Kt7QnaSNEaaHuEfK_f560_G3x1KIPkBtc0YIaykCz9YkGjMcjfuSJQrbnI2LHX407qV0GsGQ-EurgQwyDK9T9XTChjYuAF63MnLiHoCArNg8_YoNw-MV9NbnFVKNggKubVPOZQNd0V8VyXNZWlWkSU0KE4Shs5X901Hyv9YqdjaaMZ5Iau2pYpscGBcMGtHMtBTn6_JebDqniOhs-XNj-AjYwBYhjADf7N-3KFCpnnXSJ4fP9-Js2KAumlg-oa91bh-o6Gmkiq8OUzKRTqgnKDNgCycctdZ41cYSXKZkHU1aCvMvT1heAD-pTCfaBvy8Iy7r31IRao7-bPVxSr6CepiFHKYjKG_C_5Wsqo1FEssHl-0ykOeEkie9doZ9kvvR3qGOMChGmvHP6O7HUb4VPQC3vrtEo2PUwbIQWpWJOeJ6zwOgETfbwxTa2rvitd1v9ThDy2yG_YIfFxGxKM_KmwsO8OPIYawMgRfMA_afN5Ec6KpukBxjcXIiZbxdPT4ZD2-eVcUfmIHSk4TgSROuKFzuyBhtspzDFg=w1579-h888-no?authuser=0);
+    background-size: cover;
+    background-attachment: fixed;
+}
+header {
+    height: 100px;
+    background-color: rgba(102, 101, 101, 0.842);
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    width: 100%;
+    overflow: hidden;
+}
+.header-taitle a {
+    float: right;
+    line-height: 100px;
+    font-size: 80px;
+    font-family: fantasy;
+    letter-spacing: 3px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.header-taitle a:hover {
+    color: white;
+}
+.side-menu {
+    float: left;
+    overflow: hidden;
+    position: fixed;
+    width: 30%;
+    top: 0;
+    z-index: 10;
+
+}
+.side-icon {
+    position: relative;
+}
+.menu-list {
+    position: absolute;
+    top: 410px;
+    left: 170px;
+}
+.menu-list a {
+    font-size: 80px;
+    color: white;
+    font-family: fantasy;
+    font-weight: 900;
+    text-decoration: none;
+}
+.btn:hover {
+    color: red;
+
+}
+.main {
+    float: right;
+    overflow: hidden;
+    width: 65%;
+    margin-top: 150px;
+}
+.profile img {
+    width: 75%;
+    margin: 0 auto;
+    display: block;
+}
+footer {
+    clear: right;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: rgba(102, 101, 101, 0.842);
+    position: fixed;
+    bottom: 0;
+    font-family: fantasy;
+    font-size: 20px;
+
+}
