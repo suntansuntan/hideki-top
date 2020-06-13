@@ -34,7 +34,6 @@ header {
 }
 .side-menu {
     float: left;
-    overflow: hidden;
     position: fixed;
     width: 30%;
     top: 0;
@@ -67,9 +66,8 @@ header {
     margin-top: 150px;
 }
 .profile img {
-    width: 75%;
-    margin: 0 auto;
-    display: block;
+      margin: 0 auto;
+     display: block;
 }
 footer {
     clear: right;
